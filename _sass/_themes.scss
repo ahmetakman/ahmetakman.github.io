@@ -3,14 +3,14 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$solarized-base3};
+  --global-code-bg-color: #{$solarized-base0};
+  --global-text-color: #{$solarized-base03};
+  --global-text-color-light: #{$solarized-base02};
+  --global-theme-color: #{$solarized-green};
+  --global-hover-color: #{$solarized-green};
+  --global-hover-text-color: #{$solarized-base3};
+  --global-footer-bg-color: #{$solarized-base0};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
@@ -48,15 +48,15 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
+  --global-bg-color: #{$solarized-base03};
+  --global-code-bg-color: #{$solarized-base00};
+  --global-text-color: #{$solarized-base0};
+  --global-text-color-light: #{$solarized-base01};
+  --global-theme-color: #{$solarized-green};
+  --global-hover-color: #{$solarized-green};
+  --global-hover-text-color: #{$solarized-base03};
+  --global-footer-bg-color: #{$solarized-base02};
+  --global-footer-text-color: #{$solarized-base1};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
