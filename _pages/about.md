@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p>Intern @ <a href='ds.mpg.de/en/'>Max Planck Institute for Dynamics And Self Organization</a> under the supervision of <a href='https://github.com/zierenberg'>Dr. Johannes Zierenberg</a> in <a href='viola-priesemann.de'>Viola Priesemann's group</a>. </p> <p>Undergraduate researcher @ <a href='ogam.metu.edu.tr'>METU Center for Image Analysis</a>. </p> <p>Senior @ <a href='eee.metu.edu.tr'>Middle East Technical University Electrical and Electronics Engineering Department</a>. </p>
+subtitle: <p>Intern @ <a href='https://www.ds.mpg.de/en'>Max Planck Institute for Dynamics And Self Organization</a> under the supervision of <a href='https://github.com/zierenberg'>Dr. Johannes Zierenberg</a> in <a href='https://viola-priesemann.de'>Viola Priesemann's group</a>. </p> <p>Undergraduate researcher @ <a href='https://ogam.metu.edu.tr'>METU Center for Image Analysis</a>. </p> <p>Senior @ <a href='https://eee.metu.edu.tr'>Middle East Technical University Electrical and Electronics Engineering Department</a>. </p>
 
 profile:
   align: right
