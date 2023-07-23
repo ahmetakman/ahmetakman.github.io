@@ -16,7 +16,7 @@
       year: 2024 (Expected)
       description:
         - Electrical and Electronics Engineering Department
-        - Concentrated on mainly signal processing.
+        - Concentrated mainly on signal processing.
         - GPA: 3.46/4.00
     - title: High School
       institution: Antalya Anatolian High School
@@ -28,68 +28,100 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Erasmus Summer Intern
-      institution: Max Planck Institute for Dynamics and Self-Organization, Göttingen, Germany
+    - title: Research Intern
+      institution: <a href="https://www.ds.mpg.de/en">Max Planck Institute for Dynamics and Self-Organization</a> , Göttingen, Germany
       year: 2023
       description:
-        - Research studies in "Complex Systems Theory" on "Computational Neuroscience".
-        - Worked with Dr.Johannes Zierenberg and Dr.Jonas Dehning.
-        - title: Complex systems group.
-          contents:
-            - MPRG Viola Priesemann
+        - Have been working on self-sustaining only-excitatory neuronal network dynamics under the supervision of <a href= "https://zierenberg.github.io/" > Dr. Johannes Zierenberg</a>  and <a href= "https://www.jdehning.com/"> Jonas Dehning </a>  in the <a href="https://www.viola-priesemann.de/"> Prof. Viola Priesemann’s</a>  group
     - title: Undergraduate Researcher
-      institution: METU Center for Image Analysis, Ankara, Türkiye
+      institution: <a href="https://ogam.metu.edu.tr" > METU Center for Image Analysis </a>, Ankara, Türkiye
       year: 2022-2023
       description:
-        - Research studies in "Event-Based Vision" and "Neuromorphic Algorithms" under the supervision of Prof.Dr. Aydın Alatan.
+        - Have been working on event-based vision and neuromorphic algorithms under the supervision of <a href="https://users.metu.edu.tr/alatan/"> Prof.Dr.Aydın Alatan </a>
 
 
     - title: Summer Intern
-      institution: ESEN System Integration, Ankara, Türkiye
+      institution: <a href="https://www.esensi.com.tr/"> ESEN System Integration </a>, Ankara, Türkiye
       year: 2022
       description:
           - Utilized  "Image Processing" and "Machine Learning" methods for multi-modal feature matching problem.
 
     - title: Volunteer Summer Intern
-      institution: Dr.Sistem Virtual Health Consultancy, Antalya, Türkiye
+      institution: <a href="https://drsistem.com/"> Dr.Sistem Virtual Health Consultancy </a> , Antalya, Türkiye
       year: 2019
       description:
+        - Used computer vision and trained deep learning models to segmentate radiological data.
+        - Trained a neural network to detect symptoms of parkinson on hand drawings of users.
+        - Helped the development of the online virtual consultancy program.
 
     - title: Volunteer Summer Intern
-      institution: Simple Robotics, Antalya, Türkiye
+      institution: <a href="https://www.simplerobotics.co/"> Simple Robotics </a>, Antalya, Türkiye
       year: 2017
+      description:
+        - Developed various IOT applications using Arduino and Raspberry Pi platforms.
+        - Developed small competitive mini sumo-line follower robots.
+        - Gained 3D printing , pcb design and prototyping experience.
 
-- title: Leadership/Extracurricullar Activities
+- title: Leadership/Extracurricullar
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://web.archive.org/web/20211111100847/https://www.goksat.space/">METU Göksat Space Team</a>
+      year: 2020-2021
+      items: 
+        - Leader of METU Göksat Space Team which attend national and international aerospace-based student competitions. Responsible for organization and running of the four different subteam which are electronics/software , organization/sponsorship , mechanical  , aerospace and integration subteams.
+        - Electronics/Software Subsystem Designer. Designed electrical subsystem of a mini UAV. Designed electronics and PCB's for avionics of three different model satellites. Developed embedded software for model satellites. Taken responsibility for the simulation of the swarm drones. 
+        - In 2021 the team has attended four competitions which are (Teknofest) Model Satellite competition organized by Turksat , (Teknofest) International UAV competition organized by Tubitak and Turkish Aerospace [got 5th place amongst 269 competitors] , (Teknofest) Swarm UAV competition organized by Havelsan and VTOL UAV competition organized by METU AEE Department in cooperation with Boeing
+        - In 2020 the team attended (Teknofest) Model Satellite competition organized by Turksat and International CANSAT (Model/Can-Sized Satellite) competition organized by AAS supported by NASA.
+    - title: <a href = "https://www.flowcode.com/page/fizikaal" > Antalya Anatolian High School Physics Society </a>
+      year: 2016-2018
+      items:
+        - Was co-president of the Physics society for two years.
+        - Organized various events such as sky observation nights, conferences, Pi days, science fair experiments.
+        - Established society room and robotics division.
+
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - First Place , METU Aerospace Engineering Department-Boeing
+        - As METU Göksat Space Team we have taken first place in the METU VTOL competition sponsored by Boeing. The objective was to design-build and fly a VTOL aircraft to accomplish various payload missions.
+    - year: 2021
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Second Place and Best Presentation | Havelsan-T3 Foundation
+        - As METU GÖKSAT Space Team, we have taken the second place and the best presentation award amongst 112 teams in the Swarm UAV competition held by Havelsan in the scope of 2021 Teknofest technology competitions. Teams were expected to demonstrate developed swarm systems' robustness using multiple quadcopters (Crazyflies) indoor.
+    - year: 2020
       items:
-        - Description 1.
-        - Description 2.
+      - Third Place | Pixery Hackathon IEEE METU
+      - Our team has taken the third place in 48 hours Pixery Hackathon IEEE METU. Our project aims to help visually impaired people for walking. We used computer vision , machine learning and android technologies to construct our prototype.
+    - year: 2019
+      items:
+      - First Place | Akdeniz University
+      - The research project about real-time artificial intelligence process on UAV. The project won the first place in the technology category in the Akdeniz University Prof.Dr.Fuat Sezgin 3rd Inter-High School Mathematics and Science Project Competition.
+    - year: 2018
+      items:
+      - Second Place | TUBİTAK
+      - The research project won the second place in the coding category in the TUBITAK Inter-High School Research Projects Competition. Project name was Developing Cube Satellites on Femto Class Intended Fundamental Space Research.
+    - year: 2017
+      items:
+      - First Place | National Ministy of Education-TUBİTAK
+      - 11. International MEB Robotics Competition in Design and Run (like Hackathon) Category
 
-- title: Other Interests
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Neurmorphics
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Turkish Classical Music <a (Soloist at  href="https://www.odtuktmt.com/">ODTÜ KTMT</a>), Astronomy, Motorsports, Football .

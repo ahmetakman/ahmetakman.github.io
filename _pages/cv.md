@@ -4,6 +4,6 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
-description: I can not understand why this page did not change when I modify the yml in the _data folder ...
+cv_pdf: cv,ahmet_akman.pdf
+description: You can reach my curricullum vitae from this webpage or you can just click to the pdf button.
 ---
