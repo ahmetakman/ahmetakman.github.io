@@ -1,10 +1,10 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let toggleTheme = (theme) => {
-  if (theme == "light") {
-    setTheme("dark");
-  } else {
+  if (theme == "dark") {
     setTheme("light");
+  } else {
+    setTheme("dark");
   }
 };
 
@@ -90,8 +90,7 @@ let transTheme = () => {
 let initTheme = (theme) => {
   if (theme == null || theme == "null") {
     const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: light)").matches) {
-      theme = "light";
+    if (userPref && (userPref('(prefers-color-scheme: dark)').matches || userPref('(max-width: 768px)').matches || true)) {      theme = "dark";
     }
   }
 
