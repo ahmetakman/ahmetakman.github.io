@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Group Assignment</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Group Assignment</h1>
+    <input type="file" id="csvFile" accept=".csv">
+    <button onclick="assignGroups()">Assign</button>
+    <button onclick="toggleOrder()">Order</button>
+    <table id="groupTable">
+        <tr>
+            <th>Group Number</th>
+            <th>Preferences</th>
+            <th>Assignment</th>
+        </tr>
+    </table>
+
+    <script>
+        let groups = [];
+        let ordered = false;
+
+        function assignGroups() {
+            const fileInput = document.getElementById('csvFile');
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                const contents = e.target.result;
+                const lines = contents.split('\n');
+
+                groups = [];
+
+                for (let i = 0; i < lines.length; i++) {
+                    const preferences = lines[i].split(',');
+
+                    groups.push({
+                        groupNumber: i + 1,
+                        preferences: preferences,
+                        assignment: ''
+                    });
+                }
+
+                randomizeRanks();
+                assignCompanies();
+                displayGroups();
+            };
+
+            reader.readAsText(file);
+        }
+
+        function randomizeRanks() {
+            groups.sort(() => Math.random() - 0.5);
+        }
+
+        function assignCompanies() {
+            const companies = ['A', 'B', 'C', 'D', 'E', 'F'];
+            const companyCounts = {};
+
+            for (let i = 0; i < companies.length; i++) {
+                companyCounts[companies[i]] = 0;
+            }
+
+            const groupCount = groups.length;
+            const targetCount = Math.floor(groupCount / companies.length);
+
+            for (let i = 0; i < groups.length; i++) {
+                const group = groups[i];
+
+                for (let j = 0; j < group.preferences.length; j++) {
+                    const preference = group.preferences[j];
+
+                    if (companyCounts[preference] < targetCount) {
+                        group.assignment = preference;
+                        companyCounts[preference]++;
+                        break;
+                    }
+                }
+            }
+
+            const remainingGroups = groups.filter(group => group.assignment === '');
+            remainingGroups.forEach(group => {
+                const minCount = Math.min(...Object.values(companyCounts));
+                const availableCompanies = Object.keys(companyCounts).filter(company => companyCounts[company] === minCount);
+                const randomCompany = availableCompanies[Math.floor(Math.random() * availableCompanies.length)];
+                group.assignment = randomCompany;
+                companyCounts[randomCompany]++;
+            });
+        }
+
+        function displayGroups() {
+            const table = document.getElementById('groupTable');
+            table.innerHTML = '';
+
+            const displayGroups = ordered ? groups : [...groups].sort((a, b) => a.groupNumber - b.groupNumber);
+
+            for (let i = 0; i < displayGroups.length; i++) {
+                const group = displayGroups[i];
+
+                const row = table.insertRow();
+                const groupNumberCell = row.insertCell();
+                const preferencesCell = row.insertCell();
+                const assignmentCell = row.insertCell();
+
+                groupNumberCell.innerHTML = group.groupNumber;
+                preferencesCell.innerHTML = group.preferences.join(', ');
+                assignmentCell.innerHTML = group.assignment;
+            }
+        }
+
+        function toggleOrder() {
+            ordered = !ordered;
+            displayGroups();
+        }
+    </script>
+</body>
+</html>
