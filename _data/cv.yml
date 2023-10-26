@@ -121,6 +121,13 @@
 #         - Description 1.
 #         - Description 2.
 
+- title: Language
+  type: list
+  contents:
+    - <u>Turkish:</u> Native
+    - <u>English:</u> Full professional (IELTS Academic: 7.5/9.0)
+    - <u>German:</u> Beginner
+
 - title: Interests
   type: list
   contents:
