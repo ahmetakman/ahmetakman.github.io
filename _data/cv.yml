@@ -17,7 +17,7 @@
       description:
         - Electrical and Electronics Engineering Department
         - Concentrated mainly on signal processing.
-        - GPA: 3.46/4.00
+        - GPA: 3.42/4.00
     - title: High School
       institution: Antalya Anatolian High School
       year: 2019
@@ -131,4 +131,4 @@
 - title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Turkish Classical Music (Soloist at <a  href="https://www.odtuktmt.com/">ODTÜ KTMT</a>), Astronomy, Motorsports, Football .
+    - <u>Hobbies:</u> Turkish Classical Music (Soloist at <a  href="https://www.odtuktmt.com/">ODTÜ KTMT</a>), Street Photography, Astronomy, Motorsports, Football .
