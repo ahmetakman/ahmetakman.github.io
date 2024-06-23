@@ -11,13 +11,19 @@
 - title: Education
   type: time_table
   contents:
+    - title: Master of Science
+      institution: Université Paris-Saclay, Paris, France
+      year: 2025* 
+      description:
+        - Computational Neurociences and Neuroengineering Program
+        - M2
     - title: Bachelor of Science
       institution: Middle East Technical University, Ankara, Türkiye
-      year: 2024 (Expected)
+      year: 2024 
       description:
         - Electrical and Electronics Engineering Department
-        - Concentrated mainly on signal processing.
-        - GPA: 3.42/4.00
+        - Specialized on signal processing.
+        # - GPA: 3.42/4.00
     - title: High School
       institution: Antalya Anatolian High School
       year: 2019
@@ -32,13 +38,17 @@
       institution: <a href="https://www.ds.mpg.de/en">Max Planck Institute for Dynamics and Self-Organization</a> , Göttingen, Germany
       year: 2023
       description:
-        - Have been working on self-sustaining only-excitatory neuronal network dynamics under the supervision of <a href= "https://zierenberg.github.io/" > Dr. Johannes Zierenberg</a>  and <a href= "https://www.jdehning.com/"> Jonas Dehning </a>  in the <a href="https://www.viola-priesemann.de/"> Prof. Viola Priesemann’s</a>  group
+        - Have been working on self-sustaining only-excitatory neuronal network dynamics under the supervision of <a href= "https://zierenberg.github.io/" > Dr. Johannes Zierenberg</a>  and <a href= "https://www.jdehning.com/"> Jonas Dehning </a>  in the <a href="https://www.viola-priesemann.de/"> Prof. Viola Priesemann’s</a>  group. (Ongoing project*)
     - title: Undergraduate Researcher
       institution: <a href="https://ogam.metu.edu.tr" > METU Center for Image Analysis </a>, Ankara, Türkiye
-      year: 2022-2023
+      year: 2022-2024*
       description:
         - Have been working on event-based vision and neuromorphic algorithms under the supervision of <a href="https://users.metu.edu.tr/alatan/"> Prof.Dr.Aydın Alatan </a>
-
+    - title: Candidate Engineer
+      institution: Havelsan, Ankara, Türkiye
+      year: 2023-2024*
+      description:
+        - Have been working as a candidate engineer in the R&D department as a computer vision specialist.
 
     - title: Summer Intern
       institution: <a href="https://www.esensi.com.tr/"> ESEN System Integration </a>, Ankara, Türkiye
@@ -125,10 +135,12 @@
   type: list
   contents:
     - <u>Turkish:</u> Native
-    - <u>English:</u> Full professional (IELTS Academic: 7.5/9.0)
+    - <u>English:</u> C1 (IELTS Academic: 7.5/9.0)
     - <u>German:</u> Beginner
+    - <u>French:</u> Beginner
+    
 
 - title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Turkish Classical Music (Soloist at <a  href="https://www.odtuktmt.com/">ODTÜ KTMT</a>), Street Photography, Astronomy, Motorsports, Football .
+    - <u>Hobbies:</u> Turkish Classical Music (Former soloist at <a  href="https://www.odtuktmt.com/">ODTÜ KTMT</a>), Street Photography, Astronomy, Motorsports, Football .
