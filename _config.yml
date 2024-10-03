@@ -8,10 +8,10 @@ middle_name:
 last_name: Akman
 email: mailto:ahm.akman@yahoo.com
 description:  # the ">" symbol means to ignore newlines until "footer_text:"
-  Upcoming Master's Student at Université Paris-Saclay.
+  M2 Master's Student at Université Paris-Saclay.
   Researcher.
 footer_text: 
-  open for graduate level research opportunities
+  open for PhD research opportunities
 keywords: theoretical and computational neuroscience,event-based vision, neuromorphic vision, computer vision  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
