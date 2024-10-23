@@ -21,6 +21,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
- <p> Assoc. Researcher @ <a href='https://ogam.metu.edu.tr'>METU Center for Image Analysis</a>. </p>
- <p> Assoc. Project Researcher @ <a href='https://ds.mpg.de/en'>Max Planck Institute for Dynamics and Self-Organization</a>. </p>
+ <p> Semester Project Student @ <a href='https://l2s.centralesupelec.fr/en/'> Centrale Supélec Laboratory of Signals and Systems</a>. </p>
+ <p> Previous Project Researcher @ <a href='https://ogam.metu.edu.tr'>METU Center for Image Analysis</a>. </p>
+ <p> Project Partner Researcher @ <a href='https://ds.mpg.de/en'>Max Planck Institute for Dynamics and Self-Organization</a>. </p>
  <p>Alumni of <a href='https://eee.metu.edu.tr'>Middle East Technical University Electrical and Electronics Engineering Department</a>. </p>
