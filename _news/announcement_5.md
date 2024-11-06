@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am finally graduated from the bachelors :dart: of Electrical and Electronics Engineering at METU :fire:
+I have finally graduated from the bachelors :dart: of Electrical and Electronics Engineering at METU :fire:
