@@ -1,8 +1,11 @@
 ---
-layout: about
-title: todo for internship
-permalink: /todo_internship
-
+layout: page
+permalink: /todo-internship-akman/
+title: Internship at Grewelab paperwork TODO
+nav: false
+nav_order: 2
+description: You can reach the internship process TODO for the paperwork.
+---
 
 - [ ] Meeting w/ Benjamin
 - [ ] Create a todo for internship paperwork.
