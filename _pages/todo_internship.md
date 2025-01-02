@@ -23,5 +23,4 @@ description: You can reach the internship process TODO for the paperwork.
 		- [ ] Signature by the lab.
 		- [ ] Signature by the Universite Paris-Saclay. 
 	- [ ] Mobility process.
-		- [ ] Here there are no clear instructions yet. Seems like there is no -has to be done-. I am trying to find which process could be done.
-		
+		- [ ] Host organization form (to be filled and signed by the lab) for mobility scholarship application (in office).		
