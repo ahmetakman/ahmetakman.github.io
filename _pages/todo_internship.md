@@ -13,7 +13,7 @@ description: You can reach the internship process TODO for the paperwork.
 - [ ] Zurich Side [Source](https://ethz.ch/en/studies/non-degree-courses/project/documents.html)
 	- [x] Recognition of internship document (to be filled and signed by Paris Saclay - in office). 
 	- [x] Supervisor confirmation of project document (to be filled and signed by Benjamin - in office).
-	- [ ] Registration through the ETH exchange registration page (to be done by Ahmet after the documents are ready.)
+	- [x] Registration through the ETH exchange registration page (to be done by Ahmet after the documents are ready.)
 - [ ] Paris-Saclay side
 	- [ ] Internship agreement.
 		- [x] Filling the initial information by Ahmet.
