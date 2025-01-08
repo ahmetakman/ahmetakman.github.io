@@ -17,10 +17,12 @@ description: You can reach the internship process TODO for the paperwork.
 - [ ] Paris-Saclay side
 	- [ ] Internship agreement.
 		- [x] Filling the initial information by Ahmet.
-		- [ ] Filling the host institution information and topic details by the lab (in office).
-		- [ ] Sending this version to Paris-Saclay confirmation.
-		- [ ] Signature by Ahmet.
-		- [ ] Signature by the lab.
+		- [x] Filling the host institution information and topic details by the lab (in office).
+		- [x] Sending this version to Paris-Saclay confirmation.
+		- [x] Signature by Ahmet.
+		- [x] Signature by the lab.
 		- [ ] Signature by the Universite Paris-Saclay. 
 	- [ ] Mobility process [Source](https://www.universite-paris-saclay.fr/en/candidature-a-une-bourse-de-stage-a-linternational-idex/).
 		- [x] Host organization form (to be filled and signed by the lab) for mobility scholarship application (in office).		
+		- [ ] Mobility scholarship application form (to be filled by Ahmet).
+		- [ ] Mobility scholarship results.
