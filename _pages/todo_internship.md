@@ -15,13 +15,13 @@ description: You can reach the internship process TODO for the paperwork.
 	- [x] Supervisor confirmation of project document (to be filled and signed by Benjamin - in office).
 	- [x] Registration through the ETH exchange registration page.
 - [ ] Paris-Saclay side
-	- [ ] Internship agreement.
+	- [x] Internship agreement.
 		- [x] Filling the initial information by Ahmet.
 		- [x] Filling the host institution information and topic details by the lab (in office).
 		- [x] Sending this version to Paris-Saclay confirmation.
 		- [x] Signature by Ahmet.
 		- [x] Signature by the lab.
-		- [ ] Signature by the Universite Paris-Saclay. 
+		- [x] Signature by the Universite Paris-Saclay. 
 	- [ ] Mobility process [Source](https://www.universite-paris-saclay.fr/en/candidature-a-une-bourse-de-stage-a-linternational-idex/).
 		- [x] Host organization form (to be filled and signed by the lab) for mobility scholarship application (in office).		
 		- [x] Mobility scholarship application form (to be filled by Ahmet).
