@@ -9,10 +9,10 @@ last_name: Akman
 email: mailto:ahm.akman@yahoo.com
 description:  # the ">" symbol means to ignore newlines until "footer_text:"
   M2 Master's Student at Université Paris-Saclay.
-  Researcher.
+  Master Thesis Intern at ETHZurich.
 footer_text: 
   open for PhD research opportunities
-keywords: theoretical and computational neuroscience,event-based vision, neuromorphic vision, computer vision  # add your own keywords or leave empty
+keywords: theoretical and computational neuroscience, learning systems, event-based vision, neuromorphic vision, computer vision  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📷  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
