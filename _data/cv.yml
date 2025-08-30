@@ -13,10 +13,10 @@
   contents:
     - title: Master of Science
       institution: Université Paris-Saclay, Paris, France
-      year: 2025* 
+      year: 2025
       description:
         - Computational Neurociences and Neuroengineering Program
-        - M2
+        - M2 Program organized by NeuroPSI and CentraleSupélec.
     - title: Bachelor of Science
       institution: Middle East Technical University, Ankara, Türkiye
       year: 2024 
@@ -34,6 +34,16 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Master Thesis Intern
+      institution: <a href="https://grewelab.org/">Institute of Neuroinformatics, ETH Zurich</a> , Zurich, Switzerland
+      year: 2025
+      description:
+        - Studied task schemata in target learning within the Grewelab at Institute of Neuroinformatics for my masters thesis internship.
+    - title: Semester Project Researcher
+      institution: <a href="https://l2s.centralesupelec.fr/en/">L2S Laboratory of Signals and Systems Centrale Supelec</a> , Gif Sur Yvette, France
+      year: 2024
+      description:
+        - Have worked on self-organized criticality from control theory perspective.
     - title: Research Intern
       institution: <a href="https://www.ds.mpg.de/en">Max Planck Institute for Dynamics and Self-Organization</a> , Göttingen, Germany
       year: 2023
@@ -41,14 +51,14 @@
         - Have been working on self-sustaining only-excitatory neuronal network dynamics under the supervision of <a href= "https://zierenberg.github.io/" > Dr. Johannes Zierenberg</a>  and <a href= "https://www.jdehning.com/"> Jonas Dehning </a>  in the <a href="https://www.viola-priesemann.de/"> Prof. Viola Priesemann’s</a>  group. (Ongoing project*)
     - title: Undergraduate Researcher
       institution: <a href="https://ogam.metu.edu.tr" > METU Center for Image Analysis </a>, Ankara, Türkiye
-      year: 2022-2024*
+      year: 2022-2024
       description:
-        - Have been working on event-based vision and neuromorphic algorithms under the supervision of <a href="https://users.metu.edu.tr/alatan/"> Prof.Dr.Aydın Alatan </a>
+        - Have worked on event-based vision and neuromorphic algorithms under the supervision of <a href="https://users.metu.edu.tr/alatan/"> Prof.Dr.Aydın Alatan </a>
     - title: Candidate Engineer
       institution: Havelsan, Ankara, Türkiye
-      year: 2023-2024*
+      year: 2023-2024
       description:
-        - Have been working as a candidate engineer in the R&D department as a computer vision specialist.
+        - Have worked as a candidate engineer in the R&D department as a computer vision specialist.
 
     - title: Summer Intern
       institution: <a href="https://www.esensi.com.tr/"> ESEN System Integration </a>, Ankara, Türkiye
