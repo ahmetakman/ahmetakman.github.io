@@ -11,6 +11,11 @@
 - title: Education
   type: time_table
   contents:
+    - title: Doctorate
+      institution: Swiss Federal Institute of Technology Zurich || ETH Zürich, Zurich, Switzerland
+      year: 2025
+      description:
+        - Doctorate at D-ITET (Department of Information Technology and Electrical Engineering) and ZNZ (Neuroscience).
     - title: Master of Science
       institution: Université Paris-Saclay, Paris, France
       year: 2025
@@ -34,6 +39,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Doctoral Researcher
+      institution: <a href="https://ndlab.ch/">Institute of Neuroinformatics, ETH Zurich</a> , Zurich, Switzerland
+      year: 2025-Present
+      description:
+        - Research in Neural Dynamics Lab at Institute of Neuroinformatics under the supervision of Prof. Timothée Proix..
     - title: Master Thesis Intern
       institution: <a href="https://grewelab.org/">Institute of Neuroinformatics, ETH Zurich</a> , Zurich, Switzerland
       year: 2025
