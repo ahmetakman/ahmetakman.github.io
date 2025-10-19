@@ -57,3 +57,38 @@ $solarized-blue:          #268bd2 ;
 $solarized-cyan:          #2aa198 ;
 $solarized-green:         #859900 ;
 
+// --- ETH Zürich Base Colours ---
+// (Black and white are the core, plus the seven corporate colours.)
+
+$white-color:         #ffffff !default;
+$black-color:         #000000 !default;
+
+// ETH corporate palette (seven colours) — from “default colours of the ETH Zürich” list: :contentReference[oaicite:2]{index=2}
+$eth-blue:            #215CAF !default;   // “ETH Blue”
+$eth-petrol:          #007894 !default;   // “ETH Petrol”
+$eth-green:           #627313 !default;   // “ETH Green”
+$eth-bronze:          #8E6713 !default;   // “ETH Bronze”
+$eth-red:             #B7352D !default;   // “ETH Red”
+$eth-purple:          #A7117A !default;   // “ETH Purple”
+$eth-grey:            #6F6F6F !default;   // “ETH Grey”
+
+// --- Secondary / Utility Colours ---
+// You can derive lighter/darker versions if you need (using lighten/darken functions).
+$eth-blue-dark:       darken($eth-blue, 15%) !default;
+$eth-blue-light:      lighten($eth-blue, 25%) !default;
+
+$eth-green-dark:      darken($eth-green, 15%) !default;
+$eth-green-light:     lighten($eth-green, 25%) !default;
+
+$eth-red-dark:        darken($eth-red, 15%) !default;
+$eth-red-light:       lighten($eth-red, 25%) !default;
+
+// --- Neutral / Grey Scale ---
+// ETH recommends black/white + greys for structural and digital use. :contentReference[oaicite:3]{index=3}
+$grey-color:          #6F6F6F !default;  // use same as eth-grey base
+$grey-color-light:    lighten($grey-color, 40%) !default;
+$grey-color-dark:     darken($grey-color, 20%) !default;
+
+// --- Code / Theme Specific Colours ---
+$code-bg-color-light: rgba($eth-purple, 0.05) !default;
+$code-bg-color-dark:  #2c3237 !default;

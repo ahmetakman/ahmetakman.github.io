@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Electrical and Electronics Engineer | Computational Neuroscientist | Researcher | PhD Student @<a href='https://ethz.ch/'>ETH Zürich </a>.. I am interested in research studies in theoretical and computational neuroscience, theory of computation, self-organizing systems, neuromorphics, event-based computation, and learning systems. Do not hesitate to contact me for potential collaborations or just to say hi!
+subtitle: Electrical and Electronics Engineer | Computational Neuroscientist | Researcher | PhD Student @<a href='https://ethz.ch/'>ETH Zürich </a>. I am interested in research studies in theoretical and computational neuroscience, theory of computation, self-organizing systems, neuromorphics, event-based computation, and learning systems. Do not hesitate to contact me for potential collaborations or just to say hi!
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: 
-    <p>Irschel Campus</p>
+    <p>Irchel Campus</p>
     <p>Zurich, Switzerland</p>
 
 news: true  # includes a list of news items

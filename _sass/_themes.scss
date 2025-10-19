@@ -1,42 +1,47 @@
 /*******************************************************************************
- * Themes
+ * Themes — ETH Zürich Palette
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$solarized-base03};
-  --global-code-bg-color: #{$solarized-base00};
-  --global-text-color: #{$solarized-base0};
-  --global-text-color-light: #{$solarized-base01};
-  --global-theme-color: #{$solarized-green};
-  --global-hover-color: #{$solarized-green};
-  --global-hover-text-color: #{$solarized-base03};
-  --global-footer-bg-color: #{$solarized-base02};
-  --global-footer-text-color: #{$solarized-base1};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
+  /* Global layout colors (dark mode) */
+  --global-bg-color: #000000; /* ETH black base */
+  --global-code-bg-color: #1C1C1D;
+  --global-text-color: #ffffff;
+  --global-text-color-light: #cccccc;
+  --global-theme-color: #215CAF; /* ETH Blue */
+  --global-hover-color: #007894; /* ETH Petrol */
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #1C1C1D;
+  --global-footer-text-color: #6F6F6F;
+  --global-footer-link-color: #ffffff;
+  --global-distill-app-color: #6F6F6F;
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-card-bg-color: #212529;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
+  /* Block colors */
+  --global-tip-block: #627313;            /* ETH Green */
+  --global-tip-block-bg: #e9f3e3;
+  --global-tip-block-text: #2f3b10;
+  --global-tip-block-title: #627313;
+
+  --global-warning-block: #8E6713;        /* ETH Bronze */
+  --global-warning-block-bg: #fff6e0;
+  --global-warning-block-text: #4a3500;
+  --global-warning-block-title: #8E6713;
+
+  --global-danger-block: #B7352D;         /* ETH Red */
   --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-danger-block-text: #5b0000;
+  --global-danger-block-title: #B7352D;
 
+  /* Icons & repo images (dark mode) */
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
   .fa-moon {
-    display : none;
+    display: none;
   }
 
   .repo-img-light {
@@ -45,47 +50,48 @@
   .repo-img-dark {
     display: block;
   }
-
-
 }
 
+/* -------------------------------------------------- */
+/* Light theme                                        */
+/* -------------------------------------------------- */
 html[data-theme='light'] {
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: #f5f5f5;
+  --global-text-color: #000000;
+  --global-text-color-light: #6F6F6F;
+  --global-theme-color: #215CAF; /* ETH Blue */
+  --global-hover-color: #007894; /* ETH Petrol */
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #f0f0f0;
+  --global-footer-text-color: #6F6F6F;
+  --global-footer-link-color: #000000;
+  --global-distill-app-color: #6F6F6F;
+  --global-divider-color: rgba(0, 0, 0, .1);
+  --global-card-bg-color: #ffffff;
 
-  --global-bg-color: #{$solarized-base3};
-  --global-code-bg-color: #{$solarized-base0};
-  --global-text-color: #{$solarized-base03};
-  --global-text-color-light: #{$solarized-base02};
-  --global-theme-color: #{$solarized-green};
-  --global-hover-color: #{$solarized-green};
-  --global-hover-text-color: #{$solarized-base3};
-  --global-footer-bg-color: #{$solarized-base0};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
+  --global-tip-block: #627313;
+  --global-tip-block-bg: #e9f3e3;
+  --global-tip-block-text: #2f3b10;
+  --global-tip-block-title: #627313;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
+  --global-warning-block: #8E6713;
+  --global-warning-block-bg: #fff6e0;
+  --global-warning-block-text: #4a3500;
+  --global-warning-block-title: #8E6713;
+
+  --global-danger-block: #B7352D;
   --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
-
+  --global-danger-block-text: #5b0000;
+  --global-danger-block-title: #B7352D;
 
   .fa-sun {
-    display : none;
+    display: none;
   }
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 
   .repo-img-light {
