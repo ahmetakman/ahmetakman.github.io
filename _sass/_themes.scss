@@ -1,38 +1,43 @@
 /*******************************************************************************
- * Themes — ETH Zürich Palette
+ * Themes — Ubuntu Palette (Dark + Light)
+ * Based on official Ubuntu brand colors
+ * https://design.ubuntu.com/brand/colour-palette/
  ******************************************************************************/
 
+/* -------------------------------------------------- */
+/* Dark Theme (default)                               */
+/* -------------------------------------------------- */
 :root {
   /* Global layout colors (dark mode) */
-  --global-bg-color: #000000; /* ETH black base */
-  --global-code-bg-color: #1C1C1D;
-  --global-text-color: #ffffff;
-  --global-text-color-light: #cccccc;
-  --global-theme-color: #215CAF; /* ETH Blue */
-  --global-hover-color: #007894; /* ETH Petrol */
+  --global-bg-color: #2C001E; /* Ubuntu Aubergine Dark */
+  --global-code-bg-color: #3B0B2B;
+  --global-text-color: #EDEDED;
+  --global-text-color-light: #BFBFBF;
+  --global-theme-color: #E95420; /* Ubuntu Orange */
+  --global-hover-color: #FFA372; /* Light Ubuntu Orange */
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #1C1C1D;
-  --global-footer-text-color: #6F6F6F;
-  --global-footer-link-color: #ffffff;
-  --global-distill-app-color: #6F6F6F;
-  --global-divider-color: #424246;
-  --global-card-bg-color: #212529;
+  --global-footer-bg-color: #1E0013;
+  --global-footer-text-color: #9A9996;
+  --global-footer-link-color: #FFFFFF;
+  --global-distill-app-color: #AEA79F;
+  --global-divider-color: #4E2A3E;
+  --global-card-bg-color: #3C0931;
 
   /* Block colors */
-  --global-tip-block: #627313;            /* ETH Green */
-  --global-tip-block-bg: #e9f3e3;
-  --global-tip-block-text: #2f3b10;
-  --global-tip-block-title: #627313;
+  --global-tip-block: #38B44A;            /* Ubuntu Green */
+  --global-tip-block-bg: #e1f7e3;
+  --global-tip-block-text: #14401b;
+  --global-tip-block-title: #38B44A;
 
-  --global-warning-block: #8E6713;        /* ETH Bronze */
-  --global-warning-block-bg: #fff6e0;
-  --global-warning-block-text: #4a3500;
-  --global-warning-block-title: #8E6713;
+  --global-warning-block: #EFB73E;        /* Ubuntu Yellow */
+  --global-warning-block-bg: #fff8e1;
+  --global-warning-block-text: #4a3a00;
+  --global-warning-block-title: #EFB73E;
 
-  --global-danger-block: #B7352D;         /* ETH Red */
+  --global-danger-block: #C7162B;         /* Ubuntu Red */
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #5b0000;
-  --global-danger-block-title: #B7352D;
+  --global-danger-block-title: #C7162B;
 
   /* Icons & repo images (dark mode) */
   .fa-sun {
@@ -53,37 +58,37 @@
 }
 
 /* -------------------------------------------------- */
-/* Light theme                                        */
+/* Light Theme                                        */
 /* -------------------------------------------------- */
 html[data-theme='light'] {
-  --global-bg-color: #ffffff;
-  --global-code-bg-color: #f5f5f5;
-  --global-text-color: #000000;
-  --global-text-color-light: #6F6F6F;
-  --global-theme-color: #215CAF; /* ETH Blue */
-  --global-hover-color: #007894; /* ETH Petrol */
+  --global-bg-color: #FFFFFF;
+  --global-code-bg-color: #F5F3F3;
+  --global-text-color: #2C001E;
+  --global-text-color-light: #5E2750; /* Light aubergine */
+  --global-theme-color: #E95420; /* Ubuntu Orange */
+  --global-hover-color: #AF1F00; /* Darker Ubuntu Orange */
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #f0f0f0;
-  --global-footer-text-color: #6F6F6F;
-  --global-footer-link-color: #000000;
-  --global-distill-app-color: #6F6F6F;
+  --global-footer-bg-color: #F7F5F4;
+  --global-footer-text-color: #5E2750;
+  --global-footer-link-color: #2C001E;
+  --global-distill-app-color: #AEA79F;
   --global-divider-color: rgba(0, 0, 0, .1);
   --global-card-bg-color: #ffffff;
 
-  --global-tip-block: #627313;
-  --global-tip-block-bg: #e9f3e3;
-  --global-tip-block-text: #2f3b10;
-  --global-tip-block-title: #627313;
+  --global-tip-block: #38B44A;
+  --global-tip-block-bg: #e1f7e3;
+  --global-tip-block-text: #14401b;
+  --global-tip-block-title: #38B44A;
 
-  --global-warning-block: #8E6713;
-  --global-warning-block-bg: #fff6e0;
-  --global-warning-block-text: #4a3500;
-  --global-warning-block-title: #8E6713;
+  --global-warning-block: #EFB73E;
+  --global-warning-block-bg: #fff8e1;
+  --global-warning-block-text: #4a3a00;
+  --global-warning-block-title: #EFB73E;
 
-  --global-danger-block: #B7352D;
+  --global-danger-block: #C7162B;
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #5b0000;
-  --global-danger-block-title: #B7352D;
+  --global-danger-block-title: #C7162B;
 
   .fa-sun {
     display: none;
