@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Electrical and Electronics Engineer | Computational Neuroscientist | Researcher | PhD Student @<a href='https://ethz.ch/'>ETH Zürich </a>. I am interested in research studies in theoretical and computational neuroscience, theory of computation, self-organizing systems, neuromorphics, event-based computation, and learning systems. Do not hesitate to contact me for potential collaborations or just to say hi!
+subtitle: Electrical and Electronics Engineer | Computational Neuroscientist | Researcher | PhD Student @<a href='https://ethz.ch/'>ETH Zürich</a>. <p> I am interested in research studies in theoretical and computational neuroscience, theory of computation, self-organizing systems, neuromorphics, event-based computation, and learning systems. Do not hesitate to contact me for potential collaborations or just to say hi! </p> 
+
+
 
 profile:
   align: right
@@ -17,6 +19,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
 <p> Doctoral Researcher @ <a href='https://ndlab.ch/'> Neural Dynamics Lab, INI, ETH Zürich </a>. </p>
  <p> Previous Master Thesis Intern @ <a href='https://grewelab.org/'> Grewelab, INI, ETH Zürich </a>. </p>
  <p> Previous Semester Project Student @ <a href='https://l2s.centralesupelec.fr/en/'> Centrale Supélec Laboratory of Signals and Systems</a>. </p>
