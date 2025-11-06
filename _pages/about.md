@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Electrical and Electronics Engineer | Computational Neuroscientist | Researcher | PhD Student @<a href='https://ethz.ch/'>ETH Zürich</a>. <p> I am interested in research studies in theoretical and computational neuroscience, theory of computation, self-organizing systems, neuromorphics, event-based computation, and learning systems. Do not hesitate to contact me for potential collaborations or just to say hi! </p> 
+subtitle: PhD Student @<a href='https://ethz.ch/'>ETH Zürich</a>. <p> I am interested in research studies in theoretical and computational neuroscience, theory of computation, self-organizing systems, neuromorphics, event-based computation, and learning systems. Do not hesitate to contact me for potential collaborations or just to say hi! </p> 
 
 
 
